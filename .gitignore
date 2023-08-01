@@ -152,6 +152,7 @@ cython_debug/
 .idea
 
 # custom
+# 录用后开源
 attention
 clip
 draw_tools
