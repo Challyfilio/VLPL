@@ -27,7 +27,7 @@ bash test.sh [model] [config_file] [cls_pos] [prompt_length] [n-shot] [csc] [sth
 
 Example:
 ```
-bash test.sh CoOpVPE vit_b32_ep50 end 16 1 False std
+bash test.sh CoOpVT vit_b32_ep50 end 16 1 False std
 ```
 
 After the experiments are finished, you can use `parse_test_res.py` to calculate the average results instead of manually looking into the log files. Say the structure of `output/` is
