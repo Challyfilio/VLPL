@@ -24,27 +24,7 @@ import datasets.imagenet_a
 import datasets.imagenet_r
 
 import trainers.coop
-import trainers.coop_adapter
-import trainers.coop_advpt
-import trainers.coop_advpt_v2
-import trainers.coop_post_prompt
-import trainers.coop_ta
 import trainers.coop_vt
-import trainers.coop_with_decoder
-import trainers.coop_with_vp
-import trainers.coop_with_vp_res
-import trainers.coop_with_vpe
-import trainers.coop_o
-import trainers.clip_adapter
-import trainers.clip_f
-import trainers.PTVE_1
-import trainers.PTVE_2
-import trainers.PTVE_3
-import trainers.PTVE_4
-import trainers.PTVE_5
-import trainers.PTVE_6
-import trainers.PTVE_7
-import trainers.PTVE_8
 
 import trainers.cocoop
 import trainers.zsclip
