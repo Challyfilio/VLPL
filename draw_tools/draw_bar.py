@@ -9,11 +9,11 @@ from matplotlib.font_manager import FontProperties
 from pylab import *
 from matplotlib import rcParams
 
-font_set = FontProperties(fname=r"SongNTR.ttf", size=6)
-font_set_1 = FontProperties(fname=r"SongNTR.ttf", size=10)
+font_set = FontProperties(fname=r"simsun.ttc", size=6)
+font_set_1 = FontProperties(fname=r"simsun.ttc", size=10)
 
 myfont = matplotlib.font_manager.FontProperties(
-    fname=r'SongNTR.ttf')
+    fname=r'simsun.ttc')
 
 save_dir = "main_curves"
 if not os.path.exists(save_dir):
@@ -114,14 +114,15 @@ def Draw_bar(clipz, ptve):
 
     plt.xlabel('视觉主干网络', fontdict={'size': 20}, fontsize=24, fontfamily='sans-serif', fontstyle='italic',
                fontproperties=font_set)
-    plt.ylabel('分数（%）', fontdict={'size': 20}, fontsize=24, fontfamily='sans-serif', fontstyle='italic',
+    plt.ylabel('分数/%', fontdict={'size': 20}, fontsize=24, fontfamily='sans-serif', fontstyle='italic',
                fontproperties=font_set)
-    plt.title("Zero-shot CLIP  vs  PTVE",
-              font={'size': 20})
+    # plt.title("Zero-shot CLIP  vs  PTVE",
+    #           font={'size': 20})
     plt.legend(fontsize=20)
 
-    plt.show()
-    plt.savefig('vs.png')
+    # plt.show()
+    # plt.savefig('vs.png')
+    plt.savefig('vs.svg')
 
 
 if __name__ == "__main__":
